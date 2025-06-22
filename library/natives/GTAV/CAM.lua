@@ -706,6 +706,11 @@ function HardAttachCamToPedBone(cam, ped, boneIndex, xRot, yRot, zRot, xOffset, 
 AttachCamToPedBone_2 = HardAttachCamToPedBone
 
 ---**`CAM` `client`**  
+---[Native Documentation](https://docs.fivem.net/natives/?_0x7B8A361C1813FBEF)  
+---This native does not have an official description.
+function IgnoreMenuPreferenceForBonnetCameraThisUpdate() end
+
+---**`CAM` `client`**  
 ---[Native Documentation](https://docs.fivem.net/natives/?_0xDDA77EE33C005AAF)  
 ---Interpolates the camera to specified parameters over a set duration using various curve types for position, rotation, and fov.
 ---
@@ -750,6 +755,12 @@ function IsAimCamActive() end
 ---```
 ---@return boolean
 function IsAimCamThirdPersonActive() end
+
+---**`CAM` `client`**  
+---[Native Documentation](https://docs.fivem.net/natives/?_0xEAF0FA793D05C592)  
+---This native does not have an official description.
+---@return boolean
+function IsAllowedIndependentCameraModes() end
 
 ---**`CAM` `client`**  
 ---[Native Documentation](https://docs.fivem.net/natives/?_0xD7360051C885628B)  
@@ -1108,11 +1119,6 @@ function N_0x705a276ebff3133d() end
 function N_0x7295c203dd659dfe() end
 
 ---**`CAM` `client`**  
----[Native Documentation](https://docs.fivem.net/natives/?_0x7B8A361C1813FBEF)  
----This native does not have an official description.
-function N_0x7b8a361c1813fbef() end
-
----**`CAM` `client`**  
 ---[Native Documentation](https://docs.fivem.net/natives/?_0x91EF6EE6419E5B97)  
 ---This native does not have an official description.
 ---@param p0 boolean
@@ -1216,12 +1222,6 @@ function N_0xdd79df9f4d26e1c9() end
 ---@param p0 any
 ---@param p1 number
 function N_0xe111a7c0d200cbc5(p0, p1) end
-
----**`CAM` `client`**  
----[Native Documentation](https://docs.fivem.net/natives/?_0xEAF0FA793D05C592)  
----This native does not have an official description.
----@return any
-function N_0xeaf0fa793d05c592() end
 
 ---**`CAM` `client`**  
 ---[Native Documentation](https://docs.fivem.net/natives/?_0xF55E4046F6F831DC)  

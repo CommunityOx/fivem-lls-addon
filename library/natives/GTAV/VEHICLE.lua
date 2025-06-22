@@ -855,7 +855,7 @@ function FullyChargeNitrous(vehicle) end
 
 ---**`VEHICLE` `client`**  
 ---[Native Documentation](https://docs.fivem.net/natives/?_0x9B8E1BF04B51F2E8)  
----This native does not have an official description.
+---For FiveM, use [`GET_GAME_POOL`](#\_0x2B9D4F50).
 ---@return integer, integer
 function GetAllVehicles() end
 
@@ -1256,10 +1256,9 @@ function GetLastRammedVehicle(vehicle) end
 ---SANC_LV4  
 ---SANC_LV5  
 ---Use _GET_LABEL_TEXT, to get the localized livery name.  
---------------  
----NOTE: You may need to set the vehicle's modKit to 0 by using this function: SET_VEHICLE_MOD_KIT() before getting the name, otherwise this native may return NULL.  
----dev-c.com/nativedb/func/info/1f2aa07f00b3217a  
 ---```
+---
+---NOTE: You may need to set the vehicle's modKit to 0 by using this function [SET_VEHICLE_MOD_KIT](#\_0x1F2AA07F00B3217A) before getting the name, otherwise this native may return NULL.
 ---@param vehicle integer
 ---@param liveryIndex integer
 ---@return string
